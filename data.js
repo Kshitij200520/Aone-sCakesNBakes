@@ -11,7 +11,7 @@ const BAKERY_CONFIG = {
   facebookHandle: "aonescakesnbakes",
   phoneNumber: "+91 94170 24147",
   storeAddress: "9, C Trust Road, near Peer Baba Chowk, Patel Nagar, Pathankot, Punjab 145001",
-  storeTimings: "Open Daily: 9:00 AM - 10:30 PM",
+  storeTimings: "Open Daily: 8:30 AM - 9:30 PM",
   googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Aone's+Cakes+N+Bakes+Patel+Nagar+Pathankot"
 };
 
