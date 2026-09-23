@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aone's Cakes N Bakes (Est. 1952) | Custom Cakes, Butter Cookies, Breads Pathankot</title>
+  <meta name="description"
+    content="Aone's Cakes N Bakes (Est. 1952 Pathankot) - Best bakery offering 100% pure butter cookies, custom birthday cakes, fresh breads, pav, burger buns, birthday decor, imported chocolates, frozen snacks & hampers. Order on WhatsApp!">
+  <meta name="keywords" content="Aone Cakes N Bakes, Aones Cakes N Bakes, bakery in Pathankot, custom cakes Pathankot, butter cookies Pathankot, cake shop Pathankot, fresh breads Pathankot, aonescakesnbakes.in">
+  <meta property="og:title" content="Aone's Cakes N Bakes (Since 1952) - Premium Bakery">
+  <meta property="og:description" content="100% Pure Butter Cookies, Custom Birthday Cakes, Fresh Breads & Gifting Hampers. Pathankot's Legendary Bakery Since 1952.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aonescakesnbakes.in/">
+  <meta property="og:image" content="images/shop_logo.jpg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Top Announcement Bar (Refined & Minimal) -->
+  <div class="announcement-bar">
+    <div class="header-container announcement-flex">
+      <div class="announcement-badge">
+        <span>🌱 100% Eggless Bakery</span>
+        <span>•</span>
+        <span>Est. 1952 (Pathankot)</span>
+      </div>
+      <div>
+        <a href="https://wa.me/919417024147" target="_blank" class="announcement-link">
+          WhatsApp Order: 9417024147 💬
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header Navigation (Clean, Spacious, Translucent Glassmorphism) -->
+  <header class="site-header" id="site-header">
+    <div class="header-container nav-wrapper">
+      <!-- Brand Logo -->
+      <a href="#" class="brand-logo-link" aria-label="Aone's Cakes N Bakes Home">
+        <img src="images/shop_logo.jpg" alt="Aone's Cakes N Bakes Official Logo" class="brand-logo-img">
+        <div class="logo-fallback-text">
+          <span class="brand-name">Aone's Cakes N Bakes</span>
+          <span class="brand-subtext">Since 1952 • Pathankot</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#catalog">Menu & Products</a></li>
+          <li><a href="#custom-cake">Custom Cakes</a></li>
+          <li><a href="#heritage">Our Legacy</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <!-- Minimalist Cart Trigger -->
+        <button class="cart-icon-btn" onclick="openCartDrawer()" aria-label="View Shopping Cart">
+          <span>🛍️ Cart</span>
+          <span class="cart-badge" id="cart-badge-count">0</span>
+        </button>
+
+        <!-- Primary CTA Button -->
+        <a class="btn-header-cta dynamic-wa-link" href="https://wa.me/919417024147" target="_blank">
+          Order on WhatsApp
+        </a>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle navigation menu"
+          onclick="toggleMobileNav()">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav-drawer" id="mobile-nav-drawer">
+      <div class="mobile-drawer-header">
+        <span class="mobile-brand-title">Aone's Cakes N Bakes</span>
+        <button class="mobile-drawer-close" onclick="toggleMobileNav()">✕</button>
+      </div>
+      <ul class="mobile-nav-links">
+        <li><a href="#hero" onclick="toggleMobileNav()">Home</a></li>
+        <li><a href="#catalog" onclick="toggleMobileNav()">Menu & Products</a></li>
+        <li><a href="#custom-cake" onclick="toggleMobileNav()">Custom Cakes</a></li>
+        <li><a href="#heritage" onclick="toggleMobileNav()">Our Legacy</a></li>
+        <li><a href="#contact" onclick="toggleMobileNav()">Contact</a></li>
+      </ul>
+      <div class="mobile-drawer-footer">
+        <a href="https://wa.me/919417024147" target="_blank" class="btn-whatsapp dynamic-wa-link"
+          style="width: 100%; justify-content: center; padding: 1rem;">
+          💬 Order on WhatsApp (9417024147)
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="heritage-pill">
+          <span>🌱</span> 100% Eggless Bakery • Est. 1952 (Pathankot)
+        </div>
+        <h2>Baking 100% Eggless Joy, Tradition & <span>Pure Butter</span> Perfection</h2>
+        <p>
+          Welcome to <strong>Aone's Cakes N Bakes</strong> in Pathankot! For over 7 decades, we have been crafting 100%
+          eggless mouth-watering pure butter cookies, traditional atta biscuits, custom birthday cakes, soft pav buns,
+          party decor, imported confectioneries, and gift hampers.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#catalog" class="btn-primary">
+            🍰 Explore Menu Items
+          </a>
+          <a href="#custom-cake" class="btn-secondary">
+            🎂 Request Custom Designer Cake
+          </a>
+        </div>
+
+        <div class="hero-trust-badges">
+          <div class="trust-item">
+            <div class="trust-icon">🧈</div>
+            <div class="trust-text">
+              <strong>100% Pure Butter</strong>
+              <span>Original Recipe Cookies</span>
+            </div>
+          </div>
+          <div class="trust-item">
+            <div class="trust-icon">🍞</div>
+            <div class="trust-text">
+              <strong>Fresh Daily Bakes</strong>
+              <span>Pav, Buns & Artisan Breads</span>
+            </div>
+          </div>
+          <div class="trust-item">
+            <div class="trust-icon">🎉</div>
+            <div class="trust-text">
+              <strong>One-Stop Shop</strong>
+              <span>Decor, Frozen & Hampers</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image-card">
+        <img src="images/shop_outside.jpg" id="hero-display-img" alt="Aone's Cakes N Bakes Pathankot Storefront">
+        <div class="hero-image-overlay">
+          <div class="overlay-info">
+            <h3>Aone's Cakes N Bakes & Party Shop</h3>
+            <p>Our Storefront at Peer Baba Chowk, Patel Nagar, Pathankot</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Signature Custom Creations & Store Showcase Section -->
+  <section class="container" style="margin: 2.5rem auto 1rem;">
+    <div
+      style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 2rem; box-shadow: var(--shadow-lg);">
+      <div style="text-align: center; margin-bottom: 1.75rem;">
+        <span
+          style="color: var(--accent-gold); font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px;">Handcrafted
+          Masterpieces & Real Shop Showcase</span>
+        <h3 style="font-family: var(--font-heading); font-size: 2.2rem; color: var(--text-main); margin-top: 0.25rem;">
+          Aone's Cakes N Bakes Signature Gallery</h3>
+        <p style="color: var(--text-muted); max-width: 600px; margin: 0.5rem auto 0; font-size: 0.9rem;">
+          Take a look inside our store in Pathankot — featuring our heritage desk, refrigerated cake displays, gift hampers, sugar-free basket, and daily baked cookies!
+        </p>
+      </div>
+
+      <div class="showcase-grid">
+        <!-- Card 1: Pathankot Storefront -->
+        <div
+          style="background: var(--bg-main); border: 1px solid var(--border-color); border-radius: var(--radius-md); overflow: hidden; transition: transform 0.3s ease;">
+          <div style="height: 260px; overflow: hidden; position: relative; background: #150d09;">
+            <img src="images/shop_outside.jpg" alt="Aone's Cakes N Bakes Pathankot Storefront"
+              style="width: 100%; height: 100%; object-fit: cover;">
+            <span
+              style="position: absolute; top: 12px; left: 12px; background: rgba(13, 7, 5, 0.85); backdrop-filter: blur(8px); border: 1px solid var(--accent-gold); color: var(--accent-gold-light); padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.75rem; font-weight: 700;">📍
+              Patel Nagar Storefront</span>
+          </div>
+          <div style="padding: 1rem;">
+            <h4
+              style="font-family: var(--font-heading); color: var(--accent-gold-light); font-size: 1.1rem; margin-bottom: 0.25rem;">
+              Aone's Bakery & Party Shop</h4>
+            <p style="color: var(--text-muted); font-size: 0.825rem;">Peer Baba Chowk, Patel Nagar, Pathankot. 100% eggless bakes, birthday decor & hampers.</p>
+          </div>
+        </div>
+
+        <!-- Card 2: Heritage Cash Desk & Founders -->
+        <div
+          style="background: var(--bg-main); border: 1px solid var(--border-color); border-radius: var(--radius-md); overflow: hidden; transition: transform 0.3s ease;">
+          <div style="height: 260px; overflow: hidden; position: relative; background: #150d09;">
+            <img src="images/heritage_counter.jpg" alt="Aone's Heritage Cash Counter & Founders' Wall"
+              style="width: 100%; height: 100%; object-fit: cover;">
+            <span
+              style="position: absolute; top: 12px; left: 12px; background: rgba(13, 7, 5, 0.85); backdrop-filter: blur(8px); border: 1px solid var(--accent-gold); color: var(--accent-gold-light); padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.75rem; font-weight: 700;">🏛️
+              Heritage Desk Since 1952</span>
+          </div>
+          <div style="padding: 1rem;">
+            <h4
+              style="font-family: var(--font-heading); color: var(--accent-gold-light); font-size: 1.1rem; margin-bottom: 0.25rem;">
+              Heritage Desk & Founders' Wall</h4>
+            <p style="color: var(--text-muted); font-size: 0.825rem;">Our main cashier desk with founders' portraits, wooden paneling & 3D Photo Cake banner.</p>
+          </div>
+        </div>
+
+        <!-- Card 3: Main Shop Interior -->
+        <div
+          style="background: var(--bg-main); border: 1px solid var(--border-color); border-radius: var(--radius-md); overflow: hidden; transition: transform 0.3s ease;">
+          <div style="height: 260px; overflow: hidden; position: relative; background: #150d09;">
+            <img src="images/shop_interior.jpg" alt="Aone's Bakery Store Interior & Cake Display Fridges"
+              style="width: 100%; height: 100%; object-fit: cover;">
+            <span
+              style="position: absolute; top: 12px; left: 12px; background: rgba(13, 7, 5, 0.85); backdrop-filter: blur(8px); border: 1px solid var(--accent-gold); color: var(--accent-gold-light); padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.75rem; font-weight: 700;">🏬
+              Store Aisle & Cake Cabinets</span>
+          </div>
+          <div style="padding: 1rem;">
+            <h4
+              style="font-family: var(--font-heading); color: var(--accent-gold-light); font-size: 1.1rem; margin-bottom: 0.25rem;">
+              Main Shop Interior & Fridges</h4>
+            <p style="color: var(--text-muted); font-size: 0.825rem;">Spacious shop aisle lined with glass pastry counters, chef statues & multi-door cake display fridges.</p>
+          </div>
+        </div>
+
+        <!-- Card 4: Hampers & Cookie Jars -->
+        <div
+          style="background: var(--bg-main); border: 1px solid var(--border-color); border-radius: var(--radius-md); overflow: hidden; transition: transform 0.3s ease;">
+          <div style="height: 260px; overflow: hidden; position: relative; background: #150d09;">
+            <img src="images/hampers_display.jpg" alt="Aone's Happiness in a Box Gift Hampers"
+              style="width: 100%; height: 100%; object-fit: cover;">
+            <span
+              style="position: absolute; top: 12px; left: 12px; background: rgba(13, 7, 5, 0.85); backdrop-filter: blur(8px); border: 1px solid var(--accent-gold); color: var(--accent-gold-light); padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.75rem; font-weight: 700;">🎁
+              Happiness in a Box</span>
+          </div>
+          <div style="padding: 1rem;">
+            <h4
+              style="font-family: var(--font-heading); color: var(--accent-gold-light); font-size: 1.1rem; margin-bottom: 0.25rem;">
+              Luxury Gifting & Hamper Display</h4>
+            <p style="color: var(--text-muted); font-size: 0.825rem;">Curated wooden gift hampers, satin ribbon cookie jars & premium blue festive gift carry boxes.</p>
+          </div>
+        </div>
+
+        <!-- Card 5: Sugar Free Concept Basket -->
+        <div
+          style="background: var(--bg-main); border: 1px solid var(--border-color); border-radius: var(--radius-md); overflow: hidden; transition: transform 0.3s ease;">
+          <div style="height: 260px; overflow: hidden; position: relative; background: #150d09;">
+            <img src="images/sugar_free_basket.jpg" alt="Aone's Sugar Free & Egg Free Concept Basket"
+              style="width: 100%; height: 100%; object-fit: cover;">
+            <span
+              style="position: absolute; top: 12px; left: 12px; background: rgba(13, 7, 5, 0.85); backdrop-filter: blur(8px); border: 1px solid var(--accent-gold); color: var(--accent-gold-light); padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.75rem; font-weight: 700;">🌿
+              Sugar Free & Egg Free</span>
+          </div>
+          <div style="padding: 1rem;">
+            <h4
+              style="font-family: var(--font-heading); color: var(--accent-gold-light); font-size: 1.1rem; margin-bottom: 0.25rem;">
+              Sugar Free Cookies Basket</h4>
+            <p style="color: var(--text-muted); font-size: 0.825rem;">Dedicated health wall display featuring sugar-free tea rusks, nankhatai, jeera cookies & gurma biscuits.</p>
+          </div>
+        </div>
+
+        <!-- Card 6: Fresh Cookie Counter -->
+        <div
+          style="background: var(--bg-main); border: 1px solid var(--border-color); border-radius: var(--radius-md); overflow: hidden; transition: transform 0.3s ease;">
+          <div style="height: 260px; overflow: hidden; position: relative; background: #150d09;">
+            <img src="images/cookies_display.jpg" alt="Aone's Fresh Cookie Display Counter"
+              style="width: 100%; height: 100%; object-fit: cover;">
+            <span
+              style="position: absolute; top: 12px; left: 12px; background: rgba(13, 7, 5, 0.85); backdrop-filter: blur(8px); border: 1px solid var(--accent-gold); color: var(--accent-gold-light); padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.75rem; font-weight: 700;">🍪
+              17+ Daily Baked Cookies</span>
+          </div>
+          <div style="padding: 1rem;">
+            <h4
+              style="font-family: var(--font-heading); color: var(--accent-gold-light); font-size: 1.1rem; margin-bottom: 0.25rem;">
+              Fresh Artisan Cookie Counter</h4>
+            <p style="color: var(--text-muted); font-size: 0.825rem;">Multi-tier counter full of fresh Atta, Elaichi, White Almond, Triple Choco & Cashew cookies.</p>
+          </div>
+        </div>
+
+        <!-- Card 7: Party Supplies & Hampers Counter -->
+        <div
+          style="background: var(--bg-main); border: 1px solid var(--border-color); border-radius: var(--radius-md); overflow: hidden; transition: transform 0.3s ease;">
+          <div style="height: 260px; overflow: hidden; position: relative; background: #150d09;">
+            <img src="images/ChatGPT Image Sep 23, 2026, 02_19_24 PM.png" alt="Aone's Party Supplies & Hampers Counter"
+              style="width: 100%; height: 100%; object-fit: cover;">
+            <span
+              style="position: absolute; top: 12px; left: 12px; background: rgba(13, 7, 5, 0.85); backdrop-filter: blur(8px); border: 1px solid var(--accent-gold); color: var(--accent-gold-light); padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.75rem; font-weight: 700;">🎉
+              Party Supplies & Favors</span>
+          </div>
+          <div style="padding: 1rem;">
+            <h4
+              style="font-family: var(--font-heading); color: var(--accent-gold-light); font-size: 1.1rem; margin-bottom: 0.25rem;">
+              Party Supplies & Hampers Counter</h4>
+            <p style="color: var(--text-muted); font-size: 0.825rem;">Party poppers, birthday balloons, Cupcake Stands, novelty toys & custom return gift baskets.</p>
+          </div>
+        </div>
+
+        <!-- Card 8: Imported Gourmet Aisle -->
+        <div
+          style="background: var(--bg-main); border: 1px solid var(--border-color); border-radius: var(--radius-md); overflow: hidden; transition: transform 0.3s ease;">
+          <div style="height: 260px; overflow: hidden; position: relative; background: #150d09;">
+            <img src="images/ChatGPT Image Sep 23, 2026, 02_35_59 PM.png" alt="Aone's Imported Gourmet & Confectionery Aisle"
+              style="width: 100%; height: 100%; object-fit: cover;">
+            <span
+              style="position: absolute; top: 12px; left: 12px; background: rgba(13, 7, 5, 0.85); backdrop-filter: blur(8px); border: 1px solid var(--accent-gold); color: var(--accent-gold-light); padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.75rem; font-weight: 700;">🛒
+              Gourmet & Confectionery Aisle</span>
+          </div>
+          <div style="padding: 1rem;">
+            <h4
+              style="font-family: var(--font-heading); color: var(--accent-gold-light); font-size: 1.1rem; margin-bottom: 0.25rem;">
+              Imported & Indian Gourmet Section</h4>
+            <p style="color: var(--text-muted); font-size: 0.825rem;">Davidoff coffee, Twinings tea tins, Ferrero Rocher gift boxes, Farmley dry fruit mixes & specialty spreads.</p>
+          </div>
+        </div>
+
+        <!-- Card 9: Handcrafted Celebration Gift Hampers -->
+        <div
+          style="background: var(--bg-main); border: 1px solid var(--border-color); border-radius: var(--radius-md); overflow: hidden; transition: transform 0.3s ease;">
+          <div style="height: 260px; overflow: hidden; position: relative; background: #150d09;">
+            <img src="images/ChatGPT Image Sep 23, 2026, 02_29_21 PM.png" alt="Aone's Handcrafted Celebration Gift Hampers Shelf"
+              style="width: 100%; height: 100%; object-fit: cover;">
+            <span
+              style="position: absolute; top: 12px; left: 12px; background: rgba(13, 7, 5, 0.85); backdrop-filter: blur(8px); border: 1px solid var(--accent-gold); color: var(--accent-gold-light); padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.75rem; font-weight: 700;">🎁
+              Festive Gift Hampers</span>
+          </div>
+          <div style="padding: 1rem;">
+            <h4
+              style="font-family: var(--font-heading); color: var(--accent-gold-light); font-size: 1.1rem; margin-bottom: 0.25rem;">
+              Handcrafted Festive Gift Hampers</h4>
+            <p style="color: var(--text-muted); font-size: 0.825rem;">Curated wicker baskets, Lindt Lindor, Bournville, Dark Fantasy & luxury satin ribbon gift hampers.</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Product Catalog Section -->
+  <section class="catalog-section" id="catalog">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Fresh From Our Ovens</span>
+        <h2 class="section-title">Our Signature Product Catalog</h2>
+      </div>
+
+      <div class="catalog-controls">
+        <!-- Search & Diet Filters -->
+        <div class="search-filter-row">
+          <div class="search-box">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="search-input"
+              placeholder="Search butter cookies, cakes, breads, party decor, frozen foods...">
+          </div>
+
+          <div class="diet-filter-buttons">
+            <button class="diet-btn active" data-diet="all">All Items</button>
+            <button class="diet-btn" data-diet="veg">🟢 100% Veg Only</button>
+            <button class="diet-btn" data-diet="nonveg">🔴 Non-Veg Items</button>
+          </div>
+        </div>
+
+        <!-- Scrollable Category Tabs -->
+        <div class="category-tabs-wrapper">
+          <div class="category-tabs" id="category-tabs-container">
+            <!-- Rendered via JS -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Cards Grid -->
+      <div class="product-grid" id="product-grid">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Custom Cake Builder & WhatsApp Section -->
+  <section class="container" id="custom-cake">
+    <div class="cake-builder-banner">
+      <div class="cake-builder-grid">
+        <div class="cake-builder-content">
+          <span
+            style="color: var(--accent-gold); font-size: 0.85rem; font-weight:700; text-transform:uppercase; letter-spacing:1px;">Customization
+            Experts</span>
+          <h3>Order Your Custom Cake on WhatsApp 🎂</h3>
+          <p>
+            Have a special theme, photo cake, or multi-tier wedding design in mind? Fill in your choices below and click
+            send! Our master bakers will immediately assist you on WhatsApp with pricing and delivery.
+          </p>
+          <ul
+            style="list-style: none; display: flex; flex-direction: column; gap: 0.75rem; color: var(--text-muted); font-size: 0.95rem;">
+            <li>✨ Choice of 20+ delicious cake flavors</li>
+            <li>✨ Eggless & Egg options available</li>
+            <li>✨ Send reference design photos directly on chat</li>
+            <li>✨ Fast local delivery & pickup</li>
+          </ul>
+        </div>
+
+        <form class="cake-form" id="custom-cake-form">
+          <div class="form-group">
+            <label for="customer-name">Your Name</label>
+            <input type="text" id="customer-name" class="form-control" placeholder="Enter your full name" required>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="cake-flavor">Cake Flavor</label>
+              <select id="cake-flavor" class="form-control">
+                <option value="Dutch Chocolate Truffle">Dutch Chocolate Truffle</option>
+                <option value="Fresh Fruit & Cream">Fresh Fruit & Cream</option>
+                <option value="Classic Black Forest">Classic Black Forest</option>
+                <option value="Red Velvet Cream Cheese">Red Velvet Cream Cheese</option>
+                <option value="Butterscotch Crunch">Butterscotch Crunch</option>
+                <option value="Pineapple Delight">Pineapple Delight</option>
+                <option value="Custom Flavor">Other / Custom Flavor</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="cake-weight">Cake Weight / Size</label>
+              <select id="cake-weight" class="form-control">
+                <option value="0.5 KG (Half Kg)">0.5 KG (Half Kg)</option>
+                <option value="1.0 KG (1 Kg)">1.0 KG (1 Kg)</option>
+                <option value="2.0 KG (2 Kg)">2.0 KG (2 Kg)</option>
+                <option value="3.0 KG+ Multi-tier">3.0 KG+ Multi-tier</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="cake-type">Diet Preference</label>
+              <select id="cake-type" class="form-control">
+                <option value="100% Eggless" selected>🌱 100% Eggless Guarantee</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="cake-occasion">Occasion</label>
+              <select id="cake-occasion" class="form-control">
+                <option value="Birthday Party">Birthday Party</option>
+                <option value="Wedding Anniversary">Wedding Anniversary</option>
+                <option value="Baby Shower / Naming">Baby Shower / Naming</option>
+                <option value="Corporate Event">Corporate Event</option>
+                <option value="Special Celebration">Special Celebration</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="cake-message">Custom Message / Name on Cake</label>
+            <input type="text" id="cake-message" class="form-control" placeholder="e.g. Happy 25th Birthday Rahul!">
+          </div>
+
+          <button type="submit" class="btn-whatsapp" style="justify-content: center; width: 100%; padding: 0.9rem;">
+            💬 Send Custom Order to WhatsApp
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Heritage & Story Section -->
+  <section class="heritage-section" id="heritage">
+    <div class="container heritage-grid">
+      <div class="heritage-text">
+        <span class="section-subtitle">70+ Years of Craftsmanship</span>
+        <h3>Our Heritage Since 1952</h3>
+        <p>
+          Founded in <strong>1952</strong>, Aone's Cakes N Bakes started with a simple promise: to bake with pure,
+          uncompromised ingredients and traditional recipes handed down over generations.
+        </p>
+        <p>
+          What began as a neighborhood bakery famous for its melt-in-the-mouth <strong>100% pure butter cookies</strong>
+          and fresh morning pav buns has now grown into a full-fledged bakery & celebration hub featuring gourmet cakes,
+          party decor, imported confectioneries, frozen delicacies, and festive gift hampers.
+        </p>
+
+        <div class="heritage-stats">
+          <div class="stat-box">
+            <div class="number">1952</div>
+            <div class="label">Est. Year</div>
+          </div>
+          <div class="stat-box">
+            <div class="number">100%</div>
+            <div class="label">Pure Butter</div>
+          </div>
+          <div class="stat-box">
+            <div class="number">7+</div>
+            <div class="label">Categories</div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80"
+          style="border-radius: var(--radius-lg); border: 1px solid var(--border-color); box-shadow: var(--shadow-lg);"
+          alt="Traditional Bakery Ovens">
+      </div>
+    </div>
+  </section>
+
+  <!-- Social & Contact Hub -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Get In Touch</span>
+        <h2 class="section-title">Connect With Aone's Cakes N Bakes</h2>
+      </div>
+
+      <div class="contact-grid">
+        <!-- WhatsApp Card -->
+        <div class="contact-card wa">
+          <div class="contact-icon wa-icon">
+            <svg width="38" height="38" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="12" r="12" fill="#25D366" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M17.5 14.38C17.24 14.25 15.96 13.62 15.72 13.53C15.48 13.44 15.3 13.4 15.13 13.66C14.95 13.92 14.44 14.52 14.29 14.69C14.14 14.86 13.98 14.88 13.72 14.75C13.46 14.62 12.63 14.35 11.64 13.47C10.87 12.78 10.35 11.93 10.2 11.67C10.05 11.41 10.18 11.27 10.31 11.14C10.43 11.02 10.58 10.83 10.71 10.68C10.84 10.53 10.88 10.42 10.97 10.25C11.06 10.08 11.01 9.93 10.95 9.8C10.89 9.67 10.37 8.39 10.16 7.88C9.95 7.37 9.74 7.44 9.58 7.43C9.43 7.42 9.26 7.42 9.09 7.42C8.92 7.42 8.64 7.48 8.41 7.74C8.18 8 7.53 8.61 7.53 9.85C7.53 11.09 8.43 12.29 8.56 12.46C8.69 12.63 10.33 15.16 12.85 16.25C13.45 16.51 13.91 16.66 14.28 16.78C14.88 16.97 15.43 16.94 15.86 16.88C16.34 16.81 17.34 16.27 17.55 15.68C17.76 15.09 17.76 14.58 17.7 14.48C17.64 14.38 17.5 14.38 17.5 14.38Z"
+                fill="white" />
+            </svg>
+          </div>
+          <h4>WhatsApp Ordering</h4>
+          <p>Instant chat for eggless cake orders, price inquiries & photo sharing.</p>
+          <a class="btn-whatsapp dynamic-wa-link" href="https://wa.me/919417024147" target="_blank">Chat: 9417024147</a>
+        </div>
+
+        <!-- Instagram Card -->
+        <div class="contact-card ig">
+          <div class="contact-icon ig-icon">
+            <svg width="38" height="38" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <radialGradient id="igGrad" cx="30%" cy="107%" r="130%" fx="30%" fy="107%">
+                <stop offset="0%" stop-color="#fdf497" />
+                <stop offset="5%" stop-color="#fdf497" />
+                <stop offset="45%" stop-color="#fd5949" />
+                <stop offset="60%" stop-color="#d6249f" />
+                <stop offset="90%" stop-color="#285AEB" />
+              </radialGradient>
+              <rect width="24" height="24" rx="6" fill="url(#igGrad)" />
+              <path
+                d="M12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7ZM12 15.2C10.2327 15.2 8.8 13.7673 8.8 12C8.8 10.2327 10.2327 8.8 12 8.8C13.7673 8.8 15.2 10.2327 15.2 12C15.2 13.7673 13.7673 15.2 12 15.2ZM17.25 7.95C17.25 8.61274 16.7127 9.15 16.05 9.15C15.3873 9.15 14.85 8.61274 14.85 7.95C14.85 7.28726 15.3873 6.75 16.05 6.75C16.7127 6.75 17.25 7.28726 17.25 7.95Z"
+                fill="white" />
+            </svg>
+          </div>
+          <h4>Instagram</h4>
+          <span
+            style="color: var(--accent-gold); font-size: 0.9rem; font-weight: 600; display: block; margin-bottom: 0.25rem;">@aone.cakesbakes1952</span>
+          <p>Follow us for daily fresh eggless cake designs & bakes stories.</p>
+          <a id="ig-contact-link" class="btn-secondary" href="https://instagram.com/aone.cakesbakes1952"
+            target="_blank">View Instagram Profile</a>
+        </div>
+
+        <!-- Facebook Card -->
+        <div class="contact-card fb">
+          <div class="contact-icon fb-icon">
+            <svg width="38" height="38" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="12" r="12" fill="#1877F2" />
+              <path
+                d="M14.5 12.5L14.9 9.5H12V7.75C12 6.94 12.4 6.15 13.66 6.15H15V3.6C15 3.6 13.79 3.4 12.63 3.4C10.2 3.4 8.63 4.88 8.63 7.55V9.5H6V12.5H8.63V19.75C9.16 19.83 9.7 19.88 10.25 19.88C10.85 19.88 11.43 19.82 12 19.72V12.5H14.5Z"
+                fill="white" />
+            </svg>
+          </div>
+          <h4>Facebook Page</h4>
+          <span
+            style="color: var(--accent-gold); font-size: 0.9rem; font-weight: 600; display: block; margin-bottom: 0.25rem;">Aone's
+            Cakes N Bakes | Pathankot</span>
+          <p>Join our Pathankot bakery community and stay updated with new bakes.</p>
+          <a id="fb-contact-link" class="btn-secondary" href="https://facebook.com/aonescakesnbakes"
+            target="_blank">View Facebook Page</a>
+        </div>
+
+        <!-- Address & Call Card -->
+        <div class="contact-card">
+          <div class="contact-icon map-icon">
+            <svg width="38" height="38" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2ZM12 11.5C10.62 11.5 9.5 10.38 9.5 9C9.5 7.62 10.62 6.5 12 6.5C13.38 6.5 14.5 7.62 14.5 9C14.5 10.38 13.38 11.5 12 11.5Z"
+                fill="#EA4335" />
+            </svg>
+          </div>
+          <h4>Store Address & Call</h4>
+          <p id="store-address-text">9, C Trust Road, near Peer Baba Chowk, Patel Nagar, Pathankot, Punjab 145001</p>
+          <small
+            style="color: var(--accent-gold); font-size: 0.95rem; font-weight: 700; margin: 0.25rem 0 0.75rem; display: block;"
+            id="store-phone-text">📞 +91 94170 24147</small>
+          <a class="btn-primary"
+            href="https://www.google.com/maps/search/?api=1&query=Aone's+Cakes+N+Bakes+Patel+Nagar+Pathankot"
+            target="_blank" style="font-size:0.85rem;">Google Maps Location</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Floating WhatsApp Action Button -->
+  <a class="floating-whatsapp dynamic-wa-link" href="#" target="_blank" title="Direct WhatsApp Chat">
+    💬
+  </a>
+
+  <!-- Slide-out Cart / Inquiry Drawer -->
+  <div class="cart-drawer-overlay" id="cart-drawer-overlay" onclick="closeCartDrawer()">
+    <div class="cart-drawer" onclick="event.stopPropagation()">
+      <div class="cart-header">
+        <h3>🛍️ Order Inquiry Cart</h3>
+        <button class="close-drawer-btn" onclick="closeCartDrawer()">✕</button>
+      </div>
+
+      <div class="cart-body" id="cart-items-container">
+        <!-- Cart Items JS -->
+      </div>
+
+      <div class="cart-footer">
+        <div class="cart-total-row">
+          <span>Estimated Total:</span>
+          <span id="cart-subtotal-price" style="color: var(--accent-gold);">₹0</span>
+        </div>
+        <button class="btn-whatsapp" onclick="sendCartToWhatsApp()"
+          style="width: 100%; justify-content: center; padding: 0.9rem;">
+          💬 Send Order List to WhatsApp
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 0.75rem;">
+            <img src="images/shop_logo.jpg" alt="Aone's Cakes N Bakes Logo"
+              style="width: 52px; height: 52px; border-radius: 50%; clip-path: circle(49% at 50% 50%); object-fit: cover; border: 2px solid var(--accent-gold);">
+            <div>
+              <h4
+                style="margin:0; font-family: var(--font-heading); color: var(--accent-gold-light); font-size: 1.3rem;">
+                Aone's Cakes N Bakes</h4>
+              <span
+                style="color: var(--text-muted); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1.5px;">Since
+                1952 • Pathankot</span>
+            </div>
+          </div>
+          <p style="font-size: 0.85rem; margin-bottom: 1rem;">Delivering Happiness, Bringing Smiles. Baking 100% eggless
+            pure butter cookies, custom cakes, fresh breads, party decor, imported confectioneries & gift hampers.</p>
+          <small style="color: var(--accent-gold);">Est. 1952 • Over 70 Years of Legacy</small>
+        </div>
+
+        <div class="footer-links">
+          <h5>Product Categories</h5>
+          <ul>
+            <li><a href="#catalog">Butter Cookies & Biscuits</a></li>
+            <li><a href="#catalog">Custom Cakes & Pastries</a></li>
+            <li><a href="#catalog">Breads, Pav & Burger Buns</a></li>
+            <li><a href="#catalog">Birthday Party Decor</a></li>
+            <li><a href="#catalog">Imported Confectionery</a></li>
+            <li><a href="#catalog">Veg & Non-Veg Frozen Foods</a></li>
+            <li><a href="#catalog">Gifting Hampers</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#custom-cake">Custom Cake Order</a></li>
+            <li><a href="#heritage">Our Story</a></li>
+            <li><a href="#contact">WhatsApp Chat</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h5>Store Timings</h5>
+          <p style="font-size: 0.85rem;">Open All 7 Days<br>9:00 AM - 10:30 PM</p>
+          <p style="font-size: 0.85rem; margin-top: 0.5rem; color: var(--accent-gold);">Fresh morning breads delivered
+            daily!</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 1952 - 2026 Aone's Cakes N Bakes. All Rights Reserved. Designed for Bakery Excellence.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
