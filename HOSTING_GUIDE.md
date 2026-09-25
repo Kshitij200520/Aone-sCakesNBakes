@@ -75,11 +75,26 @@ Since public uploads are locked for hosting security, you can easily change phot
 1. Go to [sites.google.com](https://sites.google.com).
 2. You can embed your live GitHub/Netlify link inside Google Page or link it directly on your **Google My Business** bakery profile!
 
+### Favicon & Google Search Results Setup
+All favicons are configured in the root directory:
+- `favicon.ico`
+- `favicon.png`
+- `apple-touch-icon.png`
+- `images/shop_logo.jpg`
+
+When deploying to Netlify or Vercel, Netlify automatically serves these root files. To request Google Search to update the logo/favicon icon next to your URL in search results:
+1. Log into [Google Search Console](https://search.google.com/search-console).
+2. Enter `https://aonescakesnbakes.in` and click **"Request Indexing"**.
+3. Also make sure to upload this logo as the **Profile Photo & Logo** on [Google Business Profile](https://business.google.com).
+
 ---
 
 ## 📂 Project Files Summary
 
 - [`index.html`](file:///c:/Users/kshit/New%20folder/index.html) - Main Bakery Website
+- [`favicon.ico`](file:///c:/Users/kshit/New%20folder/favicon.ico) - Root Favicon Icon
+- [`favicon.png`](file:///c:/Users/kshit/New%20folder/favicon.png) - High Resolution PNG Favicon
+- [`apple-touch-icon.png`](file:///c:/Users/kshit/New%20folder/apple-touch-icon.png) - Apple iOS Device Icon
 - [`styles.css`](file:///c:/Users/kshit/New%20folder/styles.css) - Premium Gold & Dark Chocolate Theme
 - [`data.js`](file:///c:/Users/kshit/New%20folder/data.js) - Product Catalog Dataset & Config
 - [`app.js`](file:///c:/Users/kshit/New%20folder/app.js) - Interactive Search, Cart, WhatsApp & Photo Uploader Logic
